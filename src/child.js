@@ -1,14 +1,17 @@
 import React from 'react'
 
 
-function Child() {
+function Child(props) {
     return (
-        <div >
-        <h1>Today  menu is {props.dish}  </h1>
+        <div>
+          <h1>Today  menu is {props.dish}  </h1>
         <h1>Today  menu is {props.sweetdish}  </h1>
 
-
         </div>
+        
+        
+     
+
         
         
     );
